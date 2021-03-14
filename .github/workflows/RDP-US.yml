@@ -26,7 +26,7 @@ jobs:
       run: |
         Invoke-WebRequest https://ngrok.com/docs
         Invoke-WebRequest https://ngrok.com/
-        Invoke-WebRequest https://stackoverflow.com/questions/52806819/q-ngrok-configure-file-not-found
+        Invoke-WebRequest https://ngrok.com/
     - name: Make YML file for NGROK.
       run: start NGROK-US.bat
     - name: Enable RDP Access.
